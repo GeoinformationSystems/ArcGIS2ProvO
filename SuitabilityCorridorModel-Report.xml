@@ -1,0 +1,822 @@
+<?xml-stylesheet type="text/xsl" href="file://c:/program files/arcgis/pro/Resources/ArcToolbox/Stylesheets/ModelReport.xsl"?>
+<ModelReport>
+    <CommonPath>c:/program files/arcgis/pro/Resources/ArcToolbox/Common</CommonPath>
+    <GeneratedDate>Fri Jul 24 09:58:36 2020</GeneratedDate>
+    <MdModel>
+        <Variables>
+            <MdVariable>
+                <ReportElementId>RptElem0</ReportElementId>
+                <Id>7</Id>
+                <Name>Roads</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Feature Layer</DataTypeDescription>
+                <ValueAsText>Roads</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem1</ReportElementId>
+                <Id>10</Id>
+                <Name>Output direction raster</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>0</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText></ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem2</ReportElementId>
+                <Id>11</Id>
+                <Name>Out back direction raster</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>0</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText></ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem3</ReportElementId>
+                <Id>24</Id>
+                <Name>Core Mountain Lion Habitats</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Feature Layer</DataTypeDescription>
+                <ValueAsText>Core Mountain Lion Habitats</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem4</ReportElementId>
+                <Id>4</Id>
+                <Name>Elevation</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Layer</DataTypeDescription>
+                <ValueAsText>Elevation</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem5</ReportElementId>
+                <Id>6</Id>
+                <Name>Ruggedness</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem6</ReportElementId>
+                <Id>15</Id>
+                <Name>Ruggedness_Reclassified</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness_Reclassified</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem7</ReportElementId>
+                <Id>9</Id>
+                <Name>Distance_to_Roads</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem8</ReportElementId>
+                <Id>17</Id>
+                <Name>Distance_to_Roads_Reclassified</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads_Reclassified</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem9</ReportElementId>
+                <Id>12</Id>
+                <Name>Land Cover</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Layer</DataTypeDescription>
+                <ValueAsText>Land Cover</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem10</ReportElementId>
+                <Id>19</Id>
+                <Name>Land_Cover_Reclassified</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Land_Cover_Reclassified</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem11</ReportElementId>
+                <Id>13</Id>
+                <Name>Protected Status</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>0</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Layer</DataTypeDescription>
+                <ValueAsText>Protected Status</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem12</ReportElementId>
+                <Id>21</Id>
+                <Name>Protected_Status_Reclassified</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Protected_Status_Reclassified</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem13</ReportElementId>
+                <Id>23</Id>
+                <Name>Suitability_Surface</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Suitability_Surface</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem14</ReportElementId>
+                <Id>26</Id>
+                <Name>Mountain_Lion_Corridors</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Feature Class</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Mountain_Lion_Corridors</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+            <MdVariable>
+                <ReportElementId>RptElem15</ReportElementId>
+                <Id>27</Id>
+                <Name>Mountain_Lion_Corridors_Advanced</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <DataTypeDescription>Feature Class</DataTypeDescription>
+                <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Mountain_Lion_Corridors_Advanced</ValueAsText>
+                <IsParameter>0</IsParameter>
+            </MdVariable>
+        </Variables>
+        <Processes>
+            <MdProcess>
+                <ReportElementId>RptElem16</ReportElementId>
+                <Id>8</Id>
+                <Name>Euclidean Distance</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Euclidean Distance): EucDistance Roads D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads # D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Elevation # Planar # #</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 09:24:53</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T09:25:00.636: Initialization Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T09:25:02.637: Iteration Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T09:25:03.558: Completion Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 09:25:03 (Elapsed Time: 10,39 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>EucDistance</Name>
+                    <DisplayName>Euclidean Distance</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Distance\Legacy\EucDistance</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster or feature source data</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>Roads</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output distance raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Maximum distance</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Double</DataTypeDescription>
+                        <ValueAsText></ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output cell size</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Analysis Cell Size</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Elevation</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output direction raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText></ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Distance Method</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>String</DataTypeDescription>
+                        <ValueAsText>PLANAR</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Input raster or feature barrier data</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText></ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Out back direction raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText></ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem17</ReportElementId>
+                <Id>5</Id>
+                <Name>Focal Statistics</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Focal Statistics): FocalStatistics Elevation D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness &quot;Rectangle 3 3 CELL&quot; Range DATA 90</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 09:17:44</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 09:17:50 (Elapsed Time: 5,74 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>FocalStatistics</Name>
+                    <DisplayName>Focal Statistics</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Neighborhood\FocalStatistics</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>Elevation</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Neighborhood</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Neighborhood</DataTypeDescription>
+                        <ValueAsText>Rectangle 3 3 CELL</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Statistics type</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>String</DataTypeDescription>
+                        <ValueAsText>RANGE</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Ignore NoData in calculations</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Boolean</DataTypeDescription>
+                        <ValueAsText>true</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Percentile value</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Double</DataTypeDescription>
+                        <ValueAsText>90</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem18</ReportElementId>
+                <Id>14</Id>
+                <Name>Reclassify</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Reclassify): Reclassify D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness VALUE &quot;0 70 3;70 140 2;140 223,390594 1&quot; D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness_Reclassified DATA</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 13:43:50</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 13:43:52 (Elapsed Time: 2,21 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>Reclassify</Name>
+                    <DisplayName>Reclassify</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Reclass\Reclassify</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclass field</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Field</DataTypeDescription>
+                        <ValueAsText>VALUE</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclassification</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Remap</DataTypeDescription>
+                        <ValueAsText>0 70 3;70 140 2;140 223,390594 1</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness_Reclassified</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Change missing values to NoData</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Boolean</DataTypeDescription>
+                        <ValueAsText>false</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem19</ReportElementId>
+                <Id>16</Id>
+                <Name>Reclassify (2)</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Reclassify (2)): Reclassify D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads VALUE &quot;0 1000 3;1000 2000 2;2000 12812,844727 1&quot; D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads_Reclassified DATA</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 13:43:53</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 13:43:54 (Elapsed Time: 1,67 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>Reclassify</Name>
+                    <DisplayName>Reclassify</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Reclass\Reclassify</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclass field</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Field</DataTypeDescription>
+                        <ValueAsText>VALUE</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclassification</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Remap</DataTypeDescription>
+                        <ValueAsText>0 1000 3;1000 2000 2;2000 12812,844727 1</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads_Reclassified</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Change missing values to NoData</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Boolean</DataTypeDescription>
+                        <ValueAsText>false</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem20</ReportElementId>
+                <Id>18</Id>
+                <Name>Reclassify (3)</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Reclassify (3)): Reclassify &quot;Land Cover&quot; ClassName &quot;&apos;Open Water&apos; 3;&apos;Developed, Open Space&apos; 3;&apos;Developed, Low Intensity&apos; 3;&apos;Developed, Medium Intensity&apos; 3;&apos;Developed, High Intensity&apos; 3;&apos;Barren Land&apos; 3;&apos;Deciduous Forest&apos; 1;&apos;Evergreen Forest&apos; 1;&apos;Mixed Forest&apos; 1;Shrub/Scrub 1;Herbaceuous 1;Hay/Pasture 2;&apos;Cultivated Crops&apos; 2;&apos;Woody Wetlands&apos; 2;&apos;Emergent Herbaceuous Wetlands&apos; 2&quot; D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Land_Cover_Reclassified DATA</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 13:43:55</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 13:43:57 (Elapsed Time: 2,07 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>Reclassify</Name>
+                    <DisplayName>Reclassify</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Reclass\Reclassify</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>Land Cover</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclass field</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Field</DataTypeDescription>
+                        <ValueAsText>ClassName</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclassification</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Remap</DataTypeDescription>
+                        <ValueAsText>&apos;Open Water&apos; 3;&apos;Developed, Open Space&apos; 3;&apos;Developed, Low Intensity&apos; 3;&apos;Developed, Medium Intensity&apos; 3;&apos;Developed, High Intensity&apos; 3;&apos;Barren Land&apos; 3;&apos;Deciduous Forest&apos; 1;&apos;Evergreen Forest&apos; 1;&apos;Mixed Forest&apos; 1;Shrub/Scrub 1;Herbaceuous 1;Hay/Pasture 2;&apos;Cultivated Crops&apos; 2;&apos;Woody Wetlands&apos; 2;&apos;Emergent Herbaceuous Wetlands&apos; 2</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Land_Cover_Reclassified</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Change missing values to NoData</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Boolean</DataTypeDescription>
+                        <ValueAsText>false</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem21</ReportElementId>
+                <Id>20</Id>
+                <Name>Reclassify (4)</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Reclassify (4)): Reclassify &quot;Protected Status&quot; Value &quot;0 1;1 1;2 1;3 2;4 3;NODATA 3&quot; D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Protected_Status_Reclassified DATA</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 13:43:58</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 13:43:59 (Elapsed Time: 1,73 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>Reclassify</Name>
+                    <DisplayName>Reclassify</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Reclass\Reclassify</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>Protected Status</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclass field</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Field</DataTypeDescription>
+                        <ValueAsText>Value</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Reclassification</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Remap</DataTypeDescription>
+                        <ValueAsText>0 1;1 1;2 1;3 2;4 3;NODATA 3</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Protected_Status_Reclassified</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Change missing values to NoData</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Boolean</DataTypeDescription>
+                        <ValueAsText>false</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem22</ReportElementId>
+                <Id>22</Id>
+                <Name>Weighted Sum</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Weighted Sum): WeightedSum &quot;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness_Reclassified VALUE 0,1;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads_Reclassified VALUE 1;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Land_Cover_Reclassified VALUE 0,4;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Protected_Status_Reclassified VALUE 1&quot; D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Suitability_Surface</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 13:44:00</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 13:44:03 (Elapsed Time: 3,07 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>WeightedSum</Name>
+                    <DisplayName>Weighted Sum</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Overlay\WeightedSum</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input rasters</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Weighted Sum</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Ruggedness_Reclassified VALUE 0,1;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Distance_to_Roads_Reclassified VALUE 1;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Land_Cover_Reclassified VALUE 0,4;D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Protected_Status_Reclassified VALUE 1</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output raster</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Raster Dataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Suitability_Surface</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+            <MdProcess>
+                <ReportElementId>RptElem23</ReportElementId>
+                <Id>25</Id>
+                <Name>Cost Connectivity</Name>
+                <IsAltered>0</IsAltered>
+                <IsMarked>0</IsMarked>
+                <IsCurrent>1</IsCurrent>
+                <IsValid>1</IsValid>
+                <GPMessages>
+                    <GPMessage>
+                        <MessageType>1</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Executing (Cost Connectivity): CostConnectivity &quot;Core Mountain Lion Habitats&quot; D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Suitability_Surface D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Mountain_Lion_Corridors D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Mountain_Lion_Corridors_Advanced</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>2</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Start Time: Samstag, 4. Juli 2020 13:53:37</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:39.450: Initialization Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:42.678: Iteration Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:45.752: Completion Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:47.002: Initialization Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:48.419: Iteration Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:50.278: Completion Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:52.738: Initialization Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:54.642: Iteration Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:53:55.325: Completion Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:54:01.443: Initialization Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:54:02.554: Iteration Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>0</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>2020-07-04T13:54:04.627: Completion Phase ...</MessageDescription>
+                    </GPMessage>
+                    <GPMessage>
+                        <MessageType>3</MessageType>
+                        <MessageErrorCode>0</MessageErrorCode>
+                        <MessageDescription>Succeeded at Samstag, 4. Juli 2020 13:54:07 (Elapsed Time: 29,84 seconds)</MessageDescription>
+                    </GPMessage>
+                </GPMessages>
+                <Tool>
+                    <Name>CostConnectivity</Name>
+                    <DisplayName>Cost Connectivity</DisplayName>
+                    <PathName>c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Distance\Legacy\CostConnectivity</PathName>
+                </Tool>
+                <Parameters>
+                    <MdParameter>
+                        <DisplayName>Input raster or feature region data</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>Core Mountain Lion Habitats</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Input cost raster</DisplayName>
+                        <ParameterDirection>0</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Composite Geodataset</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Suitability_Surface</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output feature class</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>0</ParameterType>
+                        <DataTypeDescription>Feature Class</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Mountain_Lion_Corridors</ValueAsText>
+                    </MdParameter>
+                    <MdParameter>
+                        <DisplayName>Output feature class of neighboring connections</DisplayName>
+                        <ParameterDirection>1</ParameterDirection>
+                        <ParameterType>1</ParameterType>
+                        <DataTypeDescription>Feature Class</DataTypeDescription>
+                        <ValueAsText>D:\Studium\SHK\mountain_lion_corridors\Mountain_Lion_Corridors\Mountain_Lion_Corridors.gdb\Mountain_Lion_Corridors_Advanced</ValueAsText>
+                    </MdParameter>
+                </Parameters>
+            </MdProcess>
+        </Processes>
+    </MdModel>
+</ModelReport>
