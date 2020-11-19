@@ -19,5 +19,5 @@ ArcGIS2PROVO is written in Python. It can be used from the command line:
 
 # License
 
-## Contact
+# Contact
 Arne Rümmler ([arne.ruemmler@tu-dresden.de](mailto:arne.ruemmler@tu-dresden.de))
