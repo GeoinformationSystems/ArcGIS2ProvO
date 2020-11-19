@@ -12,7 +12,7 @@ ArcGIS2PROVO is written in Python. It can be used from the command line:
 
 # Used Packages
 
-- rdflib: https://rdflib.readthedocs.io/en/stable/
+- rdflib: https://rdflib.readthedocs.io/en/stable/, BSD License
 - datetime: https://docs.python.org/3/library/datetime.html
 - xml: https://docs.python.org/3/library/xml.html
 - os: https://docs.python.org/3/library/os.html
