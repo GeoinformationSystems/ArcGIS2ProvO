@@ -12,9 +12,9 @@ ArcGIS2PROVO is written in Python. It can be used from the command line:
 
 # Used Packages
 
+- provo: https://github.com/GeoinformationSystems/ProvIt/tree/master
 - rdflib: https://rdflib.readthedocs.io/en/stable/
 - datetime: https://docs.python.org/3/library/datetime.html
 - xml: https://docs.python.org/3/library/xml.html
-- os: https://docs.python.org/3/library/os.html
 
 # License
