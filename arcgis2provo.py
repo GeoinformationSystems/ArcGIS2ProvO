@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
-from datetime import datetime
-from provit import ProvGraph, Activity, Entity, Agent
+from provo import ProvGraph, Activity, Entity
+import sys
 
 
 def serializeArcGISReport(inPath, outPath):
@@ -75,12 +75,15 @@ def serializeArcGISReport(inPath, outPath):
     g.serialize(format='ttl', destination=outPath)
 
 
-# serializeArcGISReport(inPath='./neuerWorkflow-Report.xml',
-#                       outPath='./Flow.ttl')
-
-serializeArcGISReport(
-    inPath='./SuitabilityCorridorModel-Report.xml', outPath='./SuitabilityCorridorModel-Prov.ttl')
-
-# serializeArcGISReport(inPath='./GasLeaksModel-Report.xml', outPath='./GasLeaks.ttl')
-
-# serializeArcGISReport(inPath='./ParisTransport-Report.xml', outPath='./ParisTransport.ttl')
+arguments = sys.argv[1:]
+if len(arguments) > 2 or len(arguments) == 0:
+    print(
+        '''Incorrect useage, please use either
+        "arcGIS2ProvO.py <path-to-arcgis-model-report>.xml <destination-of-output>.ttl" or
+        "arcGIS2ProvO.py <path-to-arcgis-model-report>.xml"'''
+    )
+if len(arguments) == 1:
+    serializeArcGISReport(
+        inPath=arguments[0], outPath=arguments[0].replace('.xml', '.ttl'))
+if len(arguments) == 2:
+    serializeArcGISReport(inPath=arguments[0], outPath=arguments[1])
